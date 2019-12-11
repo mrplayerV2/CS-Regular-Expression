@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Web;
 
-   
-    public class RegularExpressions
-    {
+public class RegularExpressions
+{
         public RegularExpressions()
         {
            

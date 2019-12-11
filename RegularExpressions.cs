@@ -10,12 +10,11 @@ public class RegularExpressions
         {
            
         }
-       
+
         public static bool IsMatch(string input, string regularExp)
         {
             return Regex.IsMatch(input, regularExp);
         }
-
        
         public static bool IsUnMinusInt(string input)
         {
@@ -195,7 +194,6 @@ public class RegularExpressions
             return Regex.IsMatch(input, RegularExp.Color);
         }
     }
-}
 public struct RegularExp
 {
     public const string Chinese = @"^[\u4E00-\u9FA5\uF900-\uFA2D]+$";
